@@ -1,0 +1,15 @@
+# Global Settings
+keep_files: [.git, README.md]
+
+# Site settings
+title: Nervous Omniverse
+email: jacortesmahmud@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  This is a blog about web technologies like Javascript, HTML5, CSS and also
+  about entertainment content of my own interest, so keep it cool and stay awesome!
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://jcortes.github.io" # the base hostname & protocol for your site
+github_username:  jcortes
+
+# Build settings
+markdown: kramdown
