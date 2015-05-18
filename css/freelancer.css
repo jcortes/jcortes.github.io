@@ -123,6 +123,7 @@ header .intro-text .skills {
     }
 }
 
+/*
 @media(min-width:768px) {
     .navbar-fixed-top {
         padding: 25px 0;
@@ -169,6 +170,7 @@ header .intro-text .skills {
 .navbar-inverse {
     border: 0;
 }
+*/
 
 section {
     padding: 100px 0;

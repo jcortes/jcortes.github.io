@@ -36,17 +36,24 @@ $on-laptop:        800px;
 //         padding-left: $spacing-unit / 2;
 //     }
 // }
-@mixin media-query($device) {
-    @media screen and (max-width: $device) {
-        @content;
-    }
-}
+//@mixin media-query($device) {
+//    @media screen and (max-width: $device) {
+//        @content;
+//    }
+//}
 
+///
+$bgDefault      : #2c3e50;
+$bgHighlight    : #2c3e50;
+$colDefault     : #ffffff;
+$colHighlight   : #18bc9c;
+$dropDown       : false;
 
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
-        "base",
-        "layout",
-        "syntax-highlighting"
+//        "base",
+//        "layout",
+//        "syntax-highlighting",
+        "custom-bootstrap"
 ;

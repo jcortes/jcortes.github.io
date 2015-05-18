@@ -2,7 +2,7 @@
 keep_files: [.git, README.md]
 
 # Site settings
-title: Nervous Omniverse
+title: Awesome Omniverse
 email: jacortesmahmud@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   This is a blog about web technologies like Javascript, HTML5, CSS and also
