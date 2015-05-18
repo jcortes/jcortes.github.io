@@ -1,0 +1,26 @@
+{
+  "name": "jcortes.github.io",
+  "version": "0.0.0",
+  "homepage": "http://jcortes.github.io",
+  "authors": [
+    "jcortes <jacortesmahmud@gmail.com>"
+  ],
+  "description": "Personal Website",
+  "keywords": [
+    "html",
+    "css",
+    "javascript"
+  ],
+  "license": "GPL",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "font-awesome": "~4.3.0",
+    "bootstrap": "~3.3.4"
+  }
+}
