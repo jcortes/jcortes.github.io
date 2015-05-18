@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Nervous Omniverse</title>
+    <title>Awesome Omniverse</title>
     <description>This is a blog about web technologies like Javascript, HTML5, CSS and also about entertainment content of my own interest, so keep it cool and stay awesome!
 </description>
     <link>http://jcortes.github.io/</link>
     <atom:link href="http://jcortes.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 18 May 2015 00:51:15 -0500</pubDate>
-    <lastBuildDate>Mon, 18 May 2015 00:51:15 -0500</lastBuildDate>
+    <pubDate>Mon, 18 May 2015 01:46:31 -0500</pubDate>
+    <lastBuildDate>Mon, 18 May 2015 01:46:31 -0500</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
