@@ -71,3 +71,18 @@
 //.scroll-top .btn:focus {
 //    outline: 0;
 //}
+
+.img-container {
+    border-radius: 128px;
+    width: 256px;
+    height: 256px;
+    overflow: hidden;
+    margin: 0px auto 20px;
+    display: flex;
+    justify-content: flex-end;
+    border: 5px solid $colDefault;
+    
+    > img {
+        height: 100%;
+    }
+}
