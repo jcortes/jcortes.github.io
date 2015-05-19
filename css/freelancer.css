@@ -213,6 +213,7 @@ section.success a.active {
     }
 }
 
+/*
 .btn-outline {
     margin-top: 15px;
     border: solid 2px #fff;
@@ -230,6 +231,7 @@ section.success a.active {
     color: #18bc9c;
     background: #fff;
 }
+*/
 
 .floating-label-form-group {
     position: relative;
@@ -309,6 +311,7 @@ footer .footer-below {
     background-color: #233140;
 }
 
+/*
 .btn-social {
     display: inline-block;
     width: 50px;
@@ -346,6 +349,7 @@ footer .footer-below {
 .scroll-top .btn:focus {
     outline: 0;
 }
+*/
 
 .portfolio-modal .modal-content {
     padding: 100px 0;

@@ -8,8 +8,7 @@
     <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 
     <!-- Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
-    <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
-<!--    <link href="css/bootstrap.min.css" rel="stylesheet">-->
+    <link href="{{"/css/bootstrap.min.css" | prepend: site.baseurl}}" rel="stylesheet">
    
     <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
@@ -17,10 +16,10 @@
 
 
     <!-- Custom CSS -->
-    <link href="css/freelancer.css" rel="stylesheet">
+    <link href="{{"/css/freelancer.css" | prepend: site.baseurl}}" rel="stylesheet">
 
     <!-- Custom Fonts -->
-    <link href="bower_components/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="{{"/bower_components/font-awesome/css/font-awesome.min.css" | prepend: site.baseurl}}" rel="stylesheet" type="text/css">
 <!--    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">-->
     <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">

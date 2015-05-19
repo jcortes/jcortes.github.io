@@ -44,7 +44,7 @@ $on-laptop:        800px;
 
 ///
 $bgDefault      : #2c3e50;
-$bgHighlight    : #2c3e50;
+$bgHighlight    : #1a242f;
 $colDefault     : #ffffff;
 $colHighlight   : #18bc9c;
 $dropDown       : false;
@@ -55,5 +55,6 @@ $dropDown       : false;
 //        "base",
 //        "layout",
 //        "syntax-highlighting",
-        "custom-bootstrap"
+        "custom-bootstrap",
+        "custom-site"
 ;

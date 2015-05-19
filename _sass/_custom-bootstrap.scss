@@ -39,7 +39,7 @@
     }
     > .active {
       > a, > a:hover, > a:focus {
-        color: $colHighlight;
+        color: $colDefault;
         background-color: $bgHighlight; 
       }
     }
@@ -110,4 +110,23 @@
     .navbar-fixed-top.navbar-shrink .navbar-brand {
         font-size: 1.5em;
     }
+}
+
+.btn-group-lg > .btn, 
+.btn-lg {
+    padding: 18px 27px;
+    font-size: 18px;
+    line-height: 1.33333;
+    border-radius: 6px;
+}
+
+.btn-success.active, 
+.btn-success.focus, 
+.btn-success:active, 
+.btn-success:focus, 
+.btn-success:hover, 
+.open > .dropdown-toggle.btn-success {
+    color: $colDefault;
+    background-color: #128F76;
+    border-color: #11866F;
 }

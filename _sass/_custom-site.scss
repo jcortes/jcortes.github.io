@@ -1,0 +1,73 @@
+.btn-outline {
+    margin-top: 15px;
+    border: solid 2px $colDefault;
+    font-size: 20px;
+    color: $colDefault;
+    background: 0 0;
+    transition: all .3s ease-in-out;
+    
+    &:hover, &:focus, &:active, .active {
+        border: solid 2px $colDefault;
+        color: $colHighlight;
+        background: $colDefault;
+    }
+}
+
+//.btn-outline:hover,
+//.btn-outline:focus,
+//.btn-outline:active,
+//.btn-outline.active {
+//    border: solid 2px #fff;
+//    color: #18bc9c;
+//    background: #fff;
+//}
+
+.btn-social {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border: 2px solid $colDefault;
+    border-radius: 100%;
+    text-align: center;
+    font-size: 20px;
+    line-height: 45px;
+}
+
+.btn:focus,
+.btn:active,
+.btn.active {
+    outline: 0;
+}
+
+.scroll-top {
+    z-index: 1049;
+    position: fixed;
+    right: 2%;
+    bottom: 2%;
+    width: 50px;
+    height: 50px;
+    
+    .btn {
+        width: 50px;
+        height: 50px;
+        border-radius: 100%;
+        font-size: 20px;
+        line-height: 28px;
+    }
+    
+    .btn:focus {
+        outline: 0;
+    }
+}
+
+//.scroll-top .btn {
+//    width: 50px;
+//    height: 50px;
+//    border-radius: 100%;
+//    font-size: 20px;
+//    line-height: 28px;
+//}
+//
+//.scroll-top .btn:focus {
+//    outline: 0;
+//}
