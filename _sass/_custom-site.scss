@@ -78,11 +78,10 @@
     height: 256px;
     overflow: hidden;
     margin: 0px auto 20px;
-    display: flex;
-    justify-content: flex-end;
     border: 5px solid $colDefault;
     
     > img {
         height: 100%;
+        float: right;
     }
 }
