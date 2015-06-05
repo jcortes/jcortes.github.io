@@ -3,9 +3,14 @@
         <div class="footer-above">
             <div class="container">
                 <div class="row">
-                    <div class="footer-col col-md-4" itemprop="address" itemtype="http://schema.org/PostalAddress">
+                    <div class="footer-col col-md-4" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
                         <h3>Location</h3>
-                        <p><span itemprop="addressLocality">Bogotá</span>, <span itemprop="addressCountry">Colombia</span></p>
+                        <p>
+			   <span itemprop="addressLocality">Bogotá</span>, 
+			   <span itemprop="addressCountry" itemscope itemtype="http://schema.org/Country">
+			      <span itemprop="name">Colombia</span>
+			   </span>
+			</p>
                     </div>
                     <div class="footer-col col-md-4">
                         <h3>Around the Web</h3>
